@@ -1,0 +1,1899 @@
+fileFormatVersion: 2
+guid: cc1db95d9803e2749be08869de87c093
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: animRig_Deadpool_GameReady_Default1
+    second: {fileID: 2100000, guid: 41e8f2333b35c4040a28b89d189f099b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: animRig_Deadpool_GameReady_Material3
+    second: {fileID: 2100000, guid: ee0b3ff2442f8e14b9867b4381e15399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: animRig_Deadpool_GameReady_Material5
+    second: {fileID: 2100000, guid: 71d69daadc6d36d41b9a685fd2c64f60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: animRig_Deadpool_GameReady_Material6
+    second: {fileID: 2100000, guid: dd614f59ded57124d8570f2d2048ad68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: animRig_Deadpool_GameReady_Material8
+    second: {fileID: 2100000, guid: 33a95f9fcf7932347acd3fc2173d3a16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 883d5f9b446ceab4cbd21917dc9e722c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CHR_Deadpool_Body_TEXTSET_Color_NormX
+    second: {fileID: 2800000, guid: 2d16e3b9d680e9640aff0f39bb4caaec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CHR_Deadpool_Misc_TEXTSET_Color_NormX
+    second: {fileID: 2800000, guid: 8f56a8d1478513643aec5b8a0e196a0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DPROP_DeadpoolSword_TEXSET_Color_NormX
+    second: {fileID: 2800000, guid: 1c3787f05a1065c4facacbb16e6d32dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WEP_MP7_TEXTSET_Color_NormX
+    second: {fileID: 2800000, guid: 933c011b40799b141b6ae65f73b2df39, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: deadpool(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:Deadpool_AutoRig
+      parentName: deadpool(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      parentName: animRig_Deadpool_GameReady:Deadpool_AutoRig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Sword_A_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Sword_B_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Leg_Knife_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Gun_A_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Gun_Trigger_A_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Gun_B_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Gun_Trigger_B_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_forearm_Straps_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Forearms_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Soles_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Ankle_Straps_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Belt_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Thigh_Straps_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_3_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_2_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_1_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_0_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_grenade_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Cansiter_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Belt_Buckle_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_R_Thigh_Cansiter_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Thigh_Pouch_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Sword_Brace_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_R_Calf_Strap_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Stomach_Strap_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_R_Stomach_Strap_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Thigh_Strap_A_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Thigh_Strap_B_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_R_Thigh_Strap_A_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_R_Thigh_Strap_B_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Chest_Strap_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_R_Chest_Strap_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Back_Strap_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Eyes_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Body_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_4_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_5_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Belt_Buckle1_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_6_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Pouch_7_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_grenade1_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Cansiter1_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Thigh_Pouch1_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_R_Thigh_Cansiter1_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_L_Leg_Knife1_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:mesh_Sword_Brace1_SingleJ_GameReady
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Meshes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Skeleton
+      parentName: animRig_Deadpool_GameReady:Deadpool_AutoRig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:Root
+      parentName: animRig_Deadpool_GameReady:Deadpool_Unity_Output_Skeleton
+      position: {x: 0, y: -0.00057816395, z: -0.0014887183}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Sword
+      parentName: animRig_Deadpool_GameReady:Root
+      position: {x: -0.0003089409, y: 0.0009614952, z: 0.001649581}
+      rotation: {x: 0.60610616, y: -0.34457192, z: 0.60060066, w: 0.3913878}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Sword
+      parentName: animRig_Deadpool_GameReady:Root
+      position: {x: 0.000328799, y: 0.0009307305, z: 0.0014926883}
+      rotation: {x: 0.3722868, y: -0.597476, z: 0.37399733, w: 0.60378057}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Gun
+      parentName: animRig_Deadpool_GameReady:Root
+      position: {x: -0.00021670634, y: 0.0008868698, z: 0.0014895266}
+      rotation: {x: 0.6517143, y: -0.077517144, z: -0.053900648, w: 0.75256515}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Gun_Trigger
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Gun
+      position: {x: -0, y: 0.000057404373, z: 0.000050972263}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Gun
+      parentName: animRig_Deadpool_GameReady:Root
+      position: {x: 0.00019530796, y: 0.0008743304, z: 0.0014513523}
+      rotation: {x: 0.63700217, y: 0.07948476, z: 0.07668303, w: 0.76290905}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Gun_Trigger
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Gun
+      position: {x: -0, y: 0.000057404373, z: 0.000050972263}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_sp_Spine_5_Pelvis
+      parentName: animRig_Deadpool_GameReady:Root
+      position: {x: -0, y: 0.0010499143, z: 0.0014972336}
+      rotation: {x: -0.0000000029103826, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_00
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_5_Pelvis
+      position: {x: 0.000077193, y: -0.000004885303, z: -0.000008515519}
+      rotation: {x: -0.006717683, y: 0.036095124, z: 0.77440625, w: 0.63162255}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_00
+      position: {x: -0.00018341503, y: -0.00008882393, z: 0.000061266495}
+      rotation: {x: 0.26191533, y: -0.37452927, z: 0.7076794, w: 0.5388118}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_0
+      position: {x: -0.0000021010617, y: -0.000031101215, z: -0.0000007262287}
+      rotation: {x: 0.019173918, y: 0.00000026822087, z: 0.00000002235174, w: 0.99981624}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_1
+      position: {x: -0.000004011742, y: -0.000030863273, z: -0.0000005467964}
+      rotation: {x: 0.017000414, y: 0.00000043958426, z: 0.000000033527613, w: 0.9998556}
+      scale: {x: 0.99999946, y: 0.99999994, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_2
+      position: {x: -0.0000029576104, y: -0.000030628544, z: -0.00000032810954}
+      rotation: {x: 0.011993719, y: 0.00000013243583, z: -0.000000023057165, w: 0.9999281}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_3
+      position: {x: -0.0000014398862, y: -0.00003053003, z: -0.00000009276023}
+      rotation: {x: 0.0040029525, y: 0.00000010609283, z: -0.000000019417566, w: 0.9999921}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_4
+      position: {x: -0.0000001658579, y: -0.000030454392, z: -0.00000022456943}
+      rotation: {x: 0.01356182, y: -0.00000005861514, z: -0.0000000037564885, w: 0.99990803}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_5
+      position: {x: 0.0000011038223, y: -0.000030402545, z: -0.000001078603}
+      rotation: {x: 0.040477395, y: 0.00000016087105, z: -0.00000014272571, w: 0.9991805}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_6
+      position: {x: 0.0000020257814, y: -0.00003064207, z: -0.0000007820387}
+      rotation: {x: 0.013365066, y: 0.0000002830692, z: -0.00000028340878, w: 0.9999108}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_R_F_Thigh_Strap_7
+      position: {x: 0.000001166915, y: -0.000030892636, z: 0.0000017788303}
+      rotation: {x: -0.06736522, y: 0.00000028509277, z: -0.00000017848369, w: 0.99772835}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_00
+      position: {x: -0.00017189387, y: -0.00008449765, z: -0.000040603893}
+      rotation: {x: 0.5450161, y: -0.5847396, z: 0.49721193, w: 0.33736822}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_0
+      position: {x: -0.00000091723143, y: -0.000033259574, z: 0.00000087668485}
+      rotation: {x: 0.019173771, y: 0.00000028382058, z: -0.000000014901163, w: 0.9998162}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_1
+      position: {x: -0.0000017848936, y: -0.000035170815, z: -0.00000071476416}
+      rotation: {x: 0.017000375, y: 0.00000028871003, z: -0, w: 0.9998555}
+      scale: {x: 0.99999976, y: 0.9999996, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_2
+      position: {x: -0.0000013128255, y: -0.00003446873, z: -0.0000016159604}
+      rotation: {x: 0.011993804, y: 0.00000017369167, z: 0.000000022351744, w: 0.9999281}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_3
+      position: {x: -0.0000005142279, y: -0.00003389208, z: -0.0000012112869}
+      rotation: {x: 0.004002925, y: -0.000000037718564, z: -0.000000007450581, w: 0.999992}
+      scale: {x: 1.0000001, y: 1, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_4
+      position: {x: 0.00000037705212, y: -0.000033570326, z: -0.0000011030207}
+      rotation: {x: 0.009795724, y: 0.0003798203, z: 0.001487985, w: 0.9999508}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_5
+      position: {x: 0.0000020553148, y: -0.000032655953, z: -0.0000016947799}
+      rotation: {x: 0.031192187, y: 0.0030860407, z: 0.010308215, w: 0.9994555}
+      scale: {x: 0.99999994, y: 0.9999996, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_6
+      position: {x: 0.000003583788, y: -0.00003169705, z: -0.0000015154859}
+      rotation: {x: 0.017283272, y: 0.0076837316, z: 0.021765197, w: 0.9995842}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999996}
+    - name: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_R_B_Thigh_Strap_7
+      position: {x: 0.0000019996116, y: -0.000031381413, z: 0.00000035661924}
+      rotation: {x: -0.033426683, y: 0.0043939734, z: 0.013117709, w: 0.9993454}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_01
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_00
+      position: {x: -0.00009271331, y: -3.3306686e-20, z: 0}
+      rotation: {x: 0.0000007278286, y: -0.000000011175871, z: -0.00000005189213, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_02
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_01
+      position: {x: -0.00009271331, y: 2.5865655e-12, z: -2.5092986e-10}
+      rotation: {x: 0.0000007357446, y: -0.000000007450603, z: -0.00000008559435, w: 1}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_03
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_02
+      position: {x: -0.00009271331, y: 1.2285402e-12, z: -6.2444255e-10}
+      rotation: {x: -0.000020279083, y: -0.000009130689, z: 0.0000001537838, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_04
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_03
+      position: {x: -0.00009271331, y: 1.2698987e-12, z: -5.5422332e-17}
+      rotation: {x: -0.4534578, y: 0.09248048, z: -0.029821442, w: 0.88596505}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_05
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_04
+      position: {x: -0.000092713184, y: 6.504951e-11, z: -5.6149857e-10}
+      rotation: {x: 0.00006309082, y: -0.05096609, z: -0.0000059763847, w: 0.99870044}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_06
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_05
+      position: {x: -0.000096030635, y: 0.0000000044298556, z: -0.000023351507}
+      rotation: {x: 0.000035990186, y: -0.050992526, z: -0.000007658252, w: 0.99869907}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_06
+      position: {x: -0.00024323637, y: -0.00005351696, z: -0.000017057491}
+      rotation: {x: 0.52916956, y: 0.38263413, z: -0.63880247, w: 0.40681943}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_0
+      position: {x: 0.00000061093596, y: 0.000029186804, z: -0.000002909695}
+      rotation: {x: -0.07681113, y: 0.0000004023313, z: -0.00000026822087, w: 0.9970457}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_1
+      position: {x: 0.0000011021071, y: 0.000030405074, z: -0.0000012915757}
+      rotation: {x: -0.03322697, y: 0.0000009261067, z: -0.00000010660878, w: 0.9994479}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_2
+      position: {x: 0.00000085968725, y: 0.000029202694, z: -0.00000037926984}
+      rotation: {x: -0.012748272, y: 0.00000049835387, z: -0.00000008187922, w: 0.99991876}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_3
+      position: {x: 0.0000006567912, y: 0.000028242637, z: -0.00000015421932}
+      rotation: {x: -0.004541232, y: 0.00000012251412, z: 0.00000008187696, w: 0.9999897}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_4
+      position: {x: 0.00000059024995, y: 0.000028101926, z: -0.0000002405668}
+      rotation: {x: -0.012954824, y: -0.00000008940696, z: -0.000000010943039, w: 0.9999161}
+      scale: {x: 0.9999991, y: 1, z: 0.99999934}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_5
+      position: {x: 0.0000006263709, y: 0.000028268274, z: -0.0000009879501}
+      rotation: {x: -0.038371883, y: 0.0000000888121, z: 0.000000008997737, w: 0.9992635}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_6
+      position: {x: 0.0000006662712, y: 0.000028581037, z: -0.0000015541615}
+      rotation: {x: -0.056932434, y: -7.882903e-10, z: 0.000000008108731, w: 0.99837804}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Calf_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_Calf_Strap_7
+      position: {x: 0.00000032748923, y: 0.000028309516, z: -0.0000018589246}
+      rotation: {x: -0.07332475, y: -0.000000059313265, z: -0.0000000048050115, w: 0.99730814}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_07
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_06
+      position: {x: -0.00009882889, y: 1.9270074e-12, z: 8.1712415e-17}
+      rotation: {x: -0.0000010031143, y: -0.0000055804844, z: 0.000000013713132, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_08
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_07
+      position: {x: -0.00009882889, y: 7.575437e-13, z: -3.5722532e-16}
+      rotation: {x: -0.000017505354, y: 0.000000029802774, z: -0.000000036038436, w: 1}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Leg_09
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_08
+      position: {x: -0.00009882889, y: 7.89066e-13, z: -3.6991962e-10}
+      rotation: {x: -0.0000009838003, y: 0.0000000037251549, z: 0.000000005764452, w: 1}
+      scale: {x: 1.000001, y: 1.0000008, z: 0.99999976}
+    - name: animRig_Deadpool_GameReady:UN_R_Leg_Ankle
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_09
+      position: {x: -0.000098828845, y: 2.9695116e-10, z: -0.0000000017503521}
+      rotation: {x: 0.6256808, y: -0.7743904, z: -0.0936983, w: -0.007975476}
+      scale: {x: 0.99999994, y: 1.0000019, z: 1.0000018}
+    - name: animRig_Deadpool_GameReady:UN_R_Leg_Toe
+      parentName: animRig_Deadpool_GameReady:UN_R_Leg_Ankle
+      position: {x: -2.750396e-10, y: 0.000081837294, z: -0.00013491968}
+      rotation: {x: -9.3132235e-10, y: -0.00000003213062, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000008, z: 1.0000008}
+    - name: animRig_Deadpool_GameReady:UN_j_Thigh_Canister
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Leg_02
+      position: {x: -0.000005625702, y: -0.000027828382, z: 0.00012365036}
+      rotation: {x: 0.0946533, y: 0.018065881, z: -0.6982652, w: 0.70932376}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_sp_Spine_4_Hips
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_5_Pelvis
+      position: {x: -0, y: 0.00005952348, z: -0.000000011176881}
+      rotation: {x: -0.017204491, y: -0, z: -0, w: 0.999852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Pouch_0
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_4_Hips
+      position: {x: -0.00014167617, y: 0.000028583881, z: 0.00006252134}
+      rotation: {x: 0.014604776, y: -0.5284865, z: -0.009093689, w: 0.8487674}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_Pouch_1
+      parentName: animRig_Deadpool_GameReady:UN_j_Pouch_0
+      position: {x: 0.00005628748, y: -0.0000046855275, z: -0.00003171686}
+      rotation: {x: 0.0000000018626449, y: 0.3077714, z: 0.0000000013969838, w: 0.95146036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Pouch_2
+      parentName: animRig_Deadpool_GameReady:UN_j_Pouch_1
+      position: {x: 0.0001615563, y: 0.000004332117, z: -0.00008193777}
+      rotation: {x: -0.0000000030639797, y: 0.46581766, z: -0.000000004272624, w: 0.8848807}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Pouch_3
+      parentName: animRig_Deadpool_GameReady:UN_j_Pouch_2
+      position: {x: 0.000074421405, y: 0.0000060966727, z: -0.000022106798}
+      rotation: {x: 0.016946921, y: 0.31069425, z: 0.051760715, w: 0.94894826}
+      scale: {x: 1.0000006, y: 1, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_Buckle
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_4_Hips
+      position: {x: -0, y: 0.000009243114, z: 0.00010741409}
+      rotation: {x: 0.017204495, y: -0, z: -0, w: 0.999852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_sp_Spine_3_Waist
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_4_Hips
+      position: {x: -0, y: 0.00007155182, z: 0.0000020168648}
+      rotation: {x: -0.0048279315, y: -0, z: -0, w: 0.9999884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_3_Waist
+      position: {x: 0.00008244966, y: -0.00003170593, z: 0.000085612366}
+      rotation: {x: 0.18172832, y: 0.10611787, z: 0.9775718, w: 0.008206453}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_0
+      position: {x: 0.00000011975824, y: -0.0000277643, z: -0.0000010513057}
+      rotation: {x: 0.037125476, y: 0.000000030282532, z: -0.0000000037252899, w: 0.9993106}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_1
+      position: {x: 0.00000025479815, y: -0.00002816276, z: 0.0000009207841}
+      rotation: {x: -0.04038814, y: -0.000000022933818, z: -0, w: 0.99918413}
+      scale: {x: 0.9999996, y: 0.9999998, z: 0.99999976}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_2
+      position: {x: 0.00000024840912, y: -0.000027462229, z: 0.0000021184408}
+      rotation: {x: -0.0763451, y: 0.000000018740437, z: -0.000000001218509, w: 0.99708146}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_3
+      position: {x: 0.00000015793226, y: -0.000027391285, z: 0.0000017088139}
+      rotation: {x: -0.065383494, y: -0.0000000569853, z: -0.000000008381903, w: 0.9978602}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_4
+      position: {x: 0.00000003449899, y: -0.000027622997, z: 0.00000095995}
+      rotation: {x: -0.036650315, y: 0.00000004400499, z: 0.000000009313226, w: 0.9993282}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_5
+      position: {x: -0.00000008145568, y: -0.000026848855, z: -0.00000030588208}
+      rotation: {x: 0.0074465773, y: 0.000000009778887, z: -0.0000000027939677, w: 0.9999723}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999976}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_6
+      position: {x: -0.00000017507983, y: -0.000025390647, z: -0.0000011191433}
+      rotation: {x: 0.03426761, y: -0.000000030368263, z: 0.0000000042850066, w: 0.9994127}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Stomach_Strap_7
+      position: {x: -0.00000010712534, y: -0.00002593308, z: -0.000000850944}
+      rotation: {x: 0.031397235, y: 0.000000014055795, z: -0.000000002868714, w: 0.999507}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_3_Waist
+      position: {x: -0.00008244966, y: -0.00003170593, z: 0.000085612366}
+      rotation: {x: -0.06775873, y: -0.18191029, z: 0.0010844131, w: 0.9809772}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_0
+      position: {x: 0.0000001198386, y: 0.000027764283, z: -0.0000010510992}
+      rotation: {x: -0.037125524, y: 0.0000000745058, z: 0.0000000037252899, w: 0.9993106}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_1
+      position: {x: 0.00000025493424, y: 0.00002816274, z: 0.00000092076414}
+      rotation: {x: 0.04038821, y: -0.000000014901161, z: -0, w: 0.99918413}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_2
+      position: {x: 0.0000002484902, y: 0.00002746228, z: 0.0000021182896}
+      rotation: {x: 0.07634508, y: -8.940136e-11, z: -0.0000000011349456, w: 0.99708146}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_3
+      position: {x: 0.00000015797653, y: 0.000027391305, z: 0.0000017087232}
+      rotation: {x: 0.06538348, y: -0, z: -0.0000000088475645, w: 0.99786025}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_4
+      position: {x: 0.000000034527293, y: 0.000027622966, z: 0.000000959931}
+      rotation: {x: 0.036650345, y: -0.000000044703484, z: 0.000000008381903, w: 0.99932814}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_5
+      position: {x: -0.000000081425355, y: 0.000026848797, z: -0.00000030582123}
+      rotation: {x: -0.007446602, y: 0.000000044703484, z: 0.000000009313226, w: 0.9999723}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_6
+      position: {x: -0.00000017502292, y: 0.00002539058, z: -0.0000011190566}
+      rotation: {x: -0.034267608, y: 4.1222842e-10, z: -0.000000008974172, w: 0.9994127}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Stomach_Strap_7
+      position: {x: -0.00000010708961, y: 0.000025933039, z: -0.0000008509549}
+      rotation: {x: -0.031397253, y: -0.00000001490461, z: 0.0000000017024687, w: 0.999507}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Grenade
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_3_Waist
+      position: {x: -0.00015849958, y: 0.000001977464, z: 0.0000013411586}
+      rotation: {x: 0.12614961, y: -0.23093946, z: -0.12989704, w: 0.9559707}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Canister
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_3_Waist
+      position: {x: -0.0001536552, y: 0.000012044453, z: -0.00004635981}
+      rotation: {x: 0.09715288, y: -0.061887864, z: -0.026940657, w: 0.99297804}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_sp_Spine_2_Ribs
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_3_Waist
+      position: {x: -0, y: 0.0000713577, z: 0.000001097844}
+      rotation: {x: -0.0048475154, y: -0, z: -0, w: 0.99998826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_2_Ribs
+      position: {x: 2.7734623e-20, y: 0.000059019145, z: -0.00000025393985}
+      rotation: {x: 0.026877591, y: -0, z: -0, w: 0.99963874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.00007528759, y: 0.00018755005, z: 0.000081683094}
+      rotation: {x: -0.2112433, y: -0.04191219, z: 0.2195338, w: 0.9515381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_0
+      position: {x: 0.00000037262484, y: 0.000027699158, z: -0.0000010596618}
+      rotation: {x: -0.03963309, y: -0, z: -9.3132246e-10, w: 0.9992143}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_1
+      position: {x: 0.00000046129912, y: 0.00003565729, z: -0.0000018773549}
+      rotation: {x: -0.06567341, y: -0.0000000030820857, z: -0.000000017833303, w: 0.9978412}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_2
+      position: {x: 0.0000002627131, y: 0.000030344687, z: -0.0000031819297}
+      rotation: {x: -0.10513536, y: 0.000000024913577, z: -0.0000000064403665, w: 0.9944579}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_3
+      position: {x: -0.000000006581414, y: 0.000028510965, z: -0.000002310433}
+      rotation: {x: -0.05924043, y: -0.000000022351742, z: 0.000000029802322, w: 0.99824375}
+      scale: {x: 0.99999964, y: 0.99999976, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_4
+      position: {x: -0.0000005022017, y: 0.00003065807, z: -0.0000024081821}
+      rotation: {x: -0.09340101, y: 0.00000001550444, z: -0.000000090154145, w: 0.9956286}
+      scale: {x: 1, y: 0.9999998, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_5
+      position: {x: -0.00000016128661, y: 0.000029357521, z: -0.0000071116783}
+      rotation: {x: -0.26272988, y: -0.000000043575632, z: 0.00000009676762, w: 0.96486944}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_6
+      position: {x: 0.00000053616424, y: 0.000032552285, z: -0.000009190206}
+      rotation: {x: 0.24003688, y: -0.000000016601547, z: 0.000000017189132, w: -0.97076386}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_7
+      position: {x: 0.00000089004055, y: 0.000037798363, z: -0.000004793644}
+      rotation: {x: -0.12320329, y: 0.0000000042379265, z: -0.000000009625471, w: 0.9923815}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_9
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_8
+      position: {x: 0.0000011354219, y: 0.000036859594, z: -0.0000032911828}
+      rotation: {x: -0.096683726, y: 0.000000014901159, z: 0.000000029802319, w: 0.99531513}
+      scale: {x: 1, y: 0.9999996, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_10
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_9
+      position: {x: 0.0000009540729, y: 0.000037160036, z: -0.0000029441062}
+      rotation: {x: -0.0752125, y: 0.000000009788889, z: -9.0335295e-11, w: 0.9971675}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_11
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_10
+      position: {x: 0.00000036206654, y: 0.000039463655, z: -0.0000024874519}
+      rotation: {x: -0.060139537, y: 0.000000007933152, z: 0.000000030318734, w: 0.99819}
+      scale: {x: 1, y: 1.0000005, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_12
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_11
+      position: {x: -0.00000010018813, y: 0.000039724226, z: -0.000002833197}
+      rotation: {x: -0.07027114, y: -0.000000006600232, z: -0.000000034455898, w: 0.9975279}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_13
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_12
+      position: {x: -0.00000036491417, y: 0.000038800616, z: -0.000003922432}
+      rotation: {x: -0.10079282, y: 0.0000000015600943, z: -0.00000001653789, w: 0.9949075}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_14
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_13
+      position: {x: -0.0000003963569, y: 0.000043483087, z: -0.0000050058566}
+      rotation: {x: -0.10613804, y: -0.0000000019483384, z: -0.0000000032382614, w: 0.9943514}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000007}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_15
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_14
+      position: {x: -0.00000015725006, y: 0.00005257792, z: -0.0000034512266}
+      rotation: {x: -0.05475445, y: -0.000000016841668, z: 0.000000011140732, w: 0.99849993}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_16
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_15
+      position: {x: 0.00000015205369, y: 0.000050630042, z: -0.0000006367177}
+      rotation: {x: -0.0074148476, y: -0.00000000996642, z: 0.00000009154922, w: 0.9999725}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_17
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_16
+      position: {x: 0.0000004355442, y: 0.000037470785, z: 0.00000052214074}
+      rotation: {x: 0.003812086, y: 0.000000014106828, z: -0.00000009796421, w: 0.9999927}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_18
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_17
+      position: {x: 0.00000060296276, y: 0.000030132207, z: -0.00000045533167}
+      rotation: {x: -0.03232411, y: 0.0000000080701295, z: -0.000000017139508, w: 0.9994775}
+      scale: {x: 1, y: 1.0000006, z: 1.0000008}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_19
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_18
+      position: {x: 0.00000062556694, y: 0.000029754072, z: -0.00000063457713}
+      rotation: {x: -0.019020349, y: 0.000000005250038, z: -0.000000056483042, w: 0.99981916}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_20
+      parentName: animRig_Deadpool_GameReady:UN_j_L_Chest_Strap_19
+      position: {x: 0.00000031653707, y: 0.000023681283, z: 0.00000079314907}
+      rotation: {x: 0.062467158, y: -0.0000000033504297, z: 0.00000006360992, w: 0.99804705}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.000075268836, y: 0.00018749847, z: 0.00008149385}
+      rotation: {x: 0.041912187, y: 0.21124326, z: 0.951538, w: 0.21953374}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_0
+      position: {x: 0.0000000774471, y: -0.00002763706, z: -0.0000012151709}
+      rotation: {x: 0.03963309, y: -0.00000001117587, z: -0.000000040046867, w: 0.9992143}
+      scale: {x: 0.9999998, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_1
+      position: {x: 0.000000034872638, y: -0.000035598958, z: -0.0000019163288}
+      rotation: {x: 0.06567337, y: 0.000000012415278, z: 0.000000059270064, w: 0.99784124}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_2
+      position: {x: -0.00000015535181, y: -0.000030434394, z: -0.0000031452132}
+      rotation: {x: 0.105135396, y: -0.0000000022266382, z: -0.000000071219404, w: 0.9944579}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_3
+      position: {x: -0.00000036878038, y: -0.000028746015, z: -0.000002096728}
+      rotation: {x: 0.059240244, y: -0, z: 0.000000033527613, w: 0.99824375}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_4
+      position: {x: -0.0000005566761, y: -0.000030900097, z: -0.0000021875658}
+      rotation: {x: 0.09340127, y: 0.000000048283066, z: -0.000000013914043, w: 0.99562854}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_5
+      position: {x: -0.00000036051765, y: -0.000029425833, z: -0.0000070481155}
+      rotation: {x: 0.26272973, y: -0.000000033790688, z: 0.000000027401104, w: 0.96486944}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_6
+      position: {x: 0.000000048141818, y: -0.000032373733, z: -0.000009282275}
+      rotation: {x: 0.24003701, y: 0.0000000070934285, z: -0.000000013618771, w: 0.97076374}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_7
+      position: {x: 0.0000002374716, y: -0.000037567042, z: -0.0000049878404}
+      rotation: {x: 0.123203285, y: -0.000000009982598, z: 0.000000048954046, w: 0.99238145}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_9
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_8
+      position: {x: 0.00000020812736, y: -0.00003668956, z: -0.0000035209043}
+      rotation: {x: 0.09668351, y: -0.000000011175871, z: -0, w: 0.9953152}
+      scale: {x: 1.0000008, y: 1, z: 1.0000007}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_10
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_9
+      position: {x: 0.00000015182036, y: -0.000037127804, z: -0.0000029585376}
+      rotation: {x: 0.07521266, y: 0.000000013490072, z: -0.00000009198273, w: 0.9971675}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_11
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_10
+      position: {x: 0.000000109142455, y: -0.00003946556, z: -0.0000023638834}
+      rotation: {x: 0.0601395, y: -0.000000022608456, z: 0.00000011032065, w: 0.99819005}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_12
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_11
+      position: {x: 0.000000025251747, y: -0.00003972501, z: -0.0000027239068}
+      rotation: {x: 0.07027118, y: 0.000000007589729, z: -0.000000019625599, w: 0.9975279}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_13
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_12
+      position: {x: -0.00000008042281, y: -0.00003879104, z: -0.000003827419}
+      rotation: {x: 0.10079274, y: -0.000000007443501, z: -0.00000001564673, w: 0.99490744}
+      scale: {x: 1, y: 1, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_14
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_13
+      position: {x: -0.00000012080513, y: -0.000043443197, z: -0.0000049783876}
+      rotation: {x: 0.106138006, y: -0.000000011039569, z: -0.000000079644366, w: 0.9943515}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_15
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_14
+      position: {x: -0.000000037011564, y: -0.000052552554, z: -0.000003463086}
+      rotation: {x: 0.05475457, y: 0.00000003382619, z: 0.00000008499481, w: 0.9984999}
+      scale: {x: 1.0000002, y: 1, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_16
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_15
+      position: {x: 0.00000016744599, y: -0.000050626353, z: -0.00000063965354}
+      rotation: {x: 0.007414871, y: -0.000000025608845, z: -0.000000074730515, w: 0.9999726}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_17
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_16
+      position: {x: 0.0000004355442, y: -0.000037470785, z: 0.00000052214074}
+      rotation: {x: -0.0038121352, y: 0.0000000073559088, z: -0.0000000045608695, w: 0.9999927}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000008}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_18
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_17
+      position: {x: 0.00000060296276, y: -0.000030132207, z: -0.00000045533167}
+      rotation: {x: 0.032324117, y: 0.0000000045440074, z: 0.000000035976502, w: 0.9994775}
+      scale: {x: 1.0000006, y: 1, z: 1.0000012}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_19
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_18
+      position: {x: 0.00000062556694, y: -0.000029754072, z: -0.00000063457713}
+      rotation: {x: 0.019020341, y: 0.000000012588165, z: 0.00000005823426, w: 0.9998191}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_20
+      parentName: animRig_Deadpool_GameReady:UN_j_R_Chest_Strap_19
+      position: {x: 0.00000031653707, y: -0.000023681283, z: 0.00000079314907}
+      rotation: {x: -0.062467113, y: -0.000000017605862, z: -0.00000006365898, w: 0.99804705}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.000092604736, y: 0.00023003556, z: -0.00013472173}
+      rotation: {x: -0.6692666, y: 0.7064016, z: 0.03157384, w: 0.22821522}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_0
+      position: {x: 0.0000000024695408, y: 0.000027559512, z: -0.00000056019314}
+      rotation: {x: -0.034974083, y: 0.000000014901161, z: 0.00000008940697, w: 0.9993883}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_1
+      position: {x: 0.000000019422068, y: 0.00002726865, z: -0.0000016869027}
+      rotation: {x: -0.061044194, y: -0.000000007450581, z: -0.000000059604645, w: 0.99813515}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_2
+      position: {x: 0.000000048139718, y: 0.000026805748, z: -0.0000015869475}
+      rotation: {x: -0.040789787, y: 0.000000014901159, z: 0.000000119209275, w: 0.99916774}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_3
+      position: {x: 0.00000008529412, y: 0.000026773987, z: -0.0000005651927}
+      rotation: {x: 0.01023212, y: 0.0000000745058, z: 0.000000059604638, w: -0.99994767}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_4
+      position: {x: 0.00000013952457, y: 0.00002679982, z: -0.0000012001536}
+      rotation: {x: -0.040789783, y: 0.000000052154064, z: -0.000000029802322, w: 0.9991678}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999934}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_5
+      position: {x: 0.00000019654104, y: 0.000027160011, z: -0.0000019858417}
+      rotation: {x: -0.06104421, y: 0.00000006290441, z: -0.00000003050113, w: 0.9981351}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_B_Chest_Strap_6
+      position: {x: 0.000000111690575, y: 0.00002747277, z: -0.0000010970276}
+      rotation: {x: -0.034974113, y: -0.000000067621656, z: 0.000000018947562, w: 0.9993883}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_L_Arm_Collar
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.000039059953, y: 0.00020292516, z: -0.0000018146126}
+      rotation: {x: 0.024267396, y: -0.13258582, z: -0.09440525, w: 0.986367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_00
+      parentName: animRig_Deadpool_GameReady:UN_L_Arm_Collar
+      position: {x: -0.00014750911, y: -2.1811996e-13, z: -3.6224218e-11}
+      rotation: {x: 0.048876237, y: 0.1370626, z: 0.10422081, w: 0.98385113}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_01
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_00
+      position: {x: -0.000062306244, y: -8.881786e-20, z: 1.7763572e-19}
+      rotation: {x: 0.000000014901159, y: -0.000000029802319, z: 0.000000027939674, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_02
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_01
+      position: {x: -0.000062306244, y: 3.700311e-13, z: 5.660476e-10}
+      rotation: {x: 0.0000107735395, y: 0.00001090765, z: 0.00000012479674, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_03
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_02
+      position: {x: -0.000062306244, y: -1.2504876e-12, z: -1.707079e-16}
+      rotation: {x: 0.000033564866, y: 0.000017948436, z: -0.00000020378815, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_04
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_03
+      position: {x: -0.000062306244, y: -1.0064891e-12, z: 3.0215828e-16}
+      rotation: {x: 0.00023687258, y: 0.00009506941, z: -0.000000018626451, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_05
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_04
+      position: {x: -0.000062306215, y: -6.6338074e-10, z: 5.1710386e-10}
+      rotation: {x: -0.00013794476, y: 0.11247709, z: -0.000031682775, w: 0.9936543}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_06
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_05
+      position: {x: -0.000049759507, y: -0.000003407388, z: 0.000015073065}
+      rotation: {x: -0.00008135691, y: -0.03685228, z: -0.0000050877666, w: 0.9993208}
+      scale: {x: 1.0000005, y: 1.0000006, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_07
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_06
+      position: {x: -0.000052103558, y: -1.7763572e-19, z: 4.973801e-18}
+      rotation: {x: 0.000022143124, y: 0.00002120435, z: 0.0000001285225, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_08
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_07
+      position: {x: -0.000052103558, y: -8.358112e-13, z: 2.2915002e-16}
+      rotation: {x: 0.0000121183675, y: 0.000007800757, z: -0.00000007916241, w: 1}
+      scale: {x: 1.0000006, y: 1.0000004, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Arm_09
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_08
+      position: {x: -0.000052103558, y: -8.3580956e-13, z: 4.2810197e-16}
+      rotation: {x: 0.0000000037252899, y: 0.0000053122635, z: 0.0000000032596286, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_Arm_Wrist
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_09
+      position: {x: -0.000052103514, y: -0.0000000021064372, z: 0.0000000012119026}
+      rotation: {x: 0.061676923, y: -0.08003062, z: 0.039386094, w: 0.9941025}
+      scale: {x: 0.9999998, y: 0.9999996, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Meta_Ring_1
+      parentName: animRig_Deadpool_GameReady:UN_L_Arm_Wrist
+      position: {x: -0.000028679136, y: 0.0000011215716, z: -0.000007631735}
+      rotation: {x: -0.019550199, y: -0.033225156, z: -0.0048459377, w: 0.999245}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Ring_1
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Meta_Ring_1
+      position: {x: -0.00007231487, y: -0.0000016848518, z: 0.00000071567274}
+      rotation: {x: -0.0051005078, y: -0.001617029, z: 0.13640188, w: 0.99063915}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Ring_2
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Ring_1
+      position: {x: -0.00003975597, y: -5.3290697e-19, z: -7.1054287e-19}
+      rotation: {x: -0.000000027474004, y: -0.000000008963975, z: 0.10432397, w: 0.99454343}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Ring_3
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Ring_2
+      position: {x: -0.00003077975, y: 7.1054287e-19, z: 1.4210857e-18}
+      rotation: {x: -0.0000000037252903, y: -0.000000031664968, z: -0.011277081, w: 0.99993646}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Meta_Mid_1
+      parentName: animRig_Deadpool_GameReady:UN_L_Arm_Wrist
+      position: {x: -0.000029494126, y: -0.00000042646826, z: 0.000010024719}
+      rotation: {x: 0.015858324, y: 0.04695753, z: -0.029763095, w: 0.9983275}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Mid_1
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Meta_Mid_1
+      position: {x: -0.00007956047, y: 0.0000016096715, z: 0.0000012800565}
+      rotation: {x: -0.017409611, y: -0.03922918, z: 0.17144634, w: 0.9842582}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Mid_2
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Mid_1
+      position: {x: -0.000042616623, y: -1.7763572e-19, z: -3.5527144e-19}
+      rotation: {x: -0.000000048428763, y: 0.000000033527606, z: 0.06847694, w: 0.9976527}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Mid_3
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Mid_2
+      position: {x: -0.000036983678, y: 3.5527144e-19, z: 0}
+      rotation: {x: 0.00000006757829, y: -0.00000008140886, z: 0.0437023, w: 0.9990446}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Thumb_1
+      parentName: animRig_Deadpool_GameReady:UN_L_Arm_Wrist
+      position: {x: -0.000020187477, y: -0.0000162953, z: 0.000024058087}
+      rotation: {x: 0.58977574, y: 0.40457475, z: -0.17688566, w: 0.67616224}
+      scale: {x: 0.99999946, y: 1.0000006, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Thumb_2
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Thumb_1
+      position: {x: -0.00006113881, y: 8.881784e-19, z: 8.881786e-20}
+      rotation: {x: 0.000000059604638, y: 0.000000029802319, z: 0.22267807, w: 0.9748921}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Thumb_3
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Thumb_2
+      position: {x: -0.000040285875, y: 0, z: -5.3290697e-19}
+      rotation: {x: 0.000000029802322, y: 0.00000011920929, z: 0.1526989, w: 0.9882728}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Meta_Index_1
+      parentName: animRig_Deadpool_GameReady:UN_L_Arm_Wrist
+      position: {x: -0.000028386712, y: -0.000000930221, z: 0.000024696357}
+      rotation: {x: 0.04213933, y: 0.1435682, z: -0.024822164, w: 0.9884312}
+      scale: {x: 0.9999997, y: 1.0000005, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Index_1
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Meta_Index_1
+      position: {x: -0.00007940107, y: 0.0000007614933, z: 0.00000052899776}
+      rotation: {x: 0.067908704, y: -0.047034275, z: 0.15519129, w: 0.98442465}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Index_2
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Index_1
+      position: {x: -0.000046425426, y: 5.3290697e-19, z: -3.5527144e-19}
+      rotation: {x: -0.000000014901158, y: -0.000000026077027, z: 0.09617979, w: 0.995364}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Index_3
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Index_2
+      position: {x: -0.000027544547, y: 4.440892e-19, z: 3.5527144e-19}
+      rotation: {x: -0.000000055932112, y: 0.00000017239375, z: 0.08861531, w: 0.996066}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Meta_Pinkie_1
+      parentName: animRig_Deadpool_GameReady:UN_L_Arm_Wrist
+      position: {x: -0.000018954408, y: -0.0000044530357, z: -0.000023185225}
+      rotation: {x: -0.0907336, y: -0.12342856, z: 0.01513095, w: 0.9880809}
+      scale: {x: 1, y: 0.99999994, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Pinkie_1
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Meta_Pinkie_1
+      position: {x: -0.00007077352, y: 0.0000008926043, z: 0.00000006529683}
+      rotation: {x: -0.03734707, y: 0.013312499, z: 0.13618325, w: 0.9898899}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Pinkie_2
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Pinkie_1
+      position: {x: -0.000035622536, y: -3.9968028e-19, z: 0}
+      rotation: {x: 0.000000011175868, y: 0.000000002793967, z: 0.09384519, w: 0.9955868}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_L_F_Pinkie_3
+      parentName: animRig_Deadpool_GameReady:UN_L_F_Pinkie_2
+      position: {x: -0.000024179468, y: 1.0658139e-18, z: -3.5527144e-19}
+      rotation: {x: -0.000000019362663, y: -0.000000046928218, z: -0.009805772, w: 0.9999519}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Arm_Wrist_CorSDK_Top
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_09
+      position: {x: -0.00005391699, y: 0.000020807272, z: 0.0000076268284}
+      rotation: {x: 0.061676916, y: -0.080030575, z: 0.039386034, w: 0.9941025}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Arm_Wrist_CorSDK_Bot
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Arm_09
+      position: {x: -0.000042966018, y: -0.00002286771, z: -0.0000016337242}
+      rotation: {x: 0.061676927, y: -0.08003057, z: 0.03938605, w: 0.99410254}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_Shipkov_L_Trap
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.000058759862, y: 0.0003162482, z: -0.000047653735}
+      rotation: {x: 0.0000000018626451, y: -0, z: 0.8329824, w: 0.5532995}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_j_Shipkov_L_Pec
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.000086628585, y: 0.00015712366, z: 0.0000779795}
+      rotation: {x: -0.19186914, y: -0.14298828, z: 0.58019376, w: 0.7785345}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_R_Arm_Collar
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.00003906, y: 0.00020293018, z: -0.0000018145969}
+      rotation: {x: 0.98636544, y: 0.09441385, z: -0.13259138, w: -0.024266506}
+      scale: {x: 1, y: 1.0000008, z: 1.0000007}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_00
+      parentName: animRig_Deadpool_GameReady:UN_R_Arm_Collar
+      position: {x: 0.00014750776, y: 0.00000000479938, z: 6.8028576e-11}
+      rotation: {x: -0.10422962, y: 0.98384964, z: 0.0488728, w: -0.13706736}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_01
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_00
+      position: {x: -0.00006230651, y: -4.440892e-19, z: 5.3290697e-19}
+      rotation: {x: 0.000000007450581, y: 0.000000029802322, z: 0.000000029802322, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_02
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_01
+      position: {x: -0.00006230651, y: 2.5567497e-12, z: 5.66446e-10}
+      rotation: {x: 0.000010766088, y: 0.0000109001985, z: 0.00000005960487, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_03
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_02
+      position: {x: -0.00006230651, y: 8.881786e-20, z: 3.5171865e-17}
+      rotation: {x: 0.00003357604, y: 0.000017948445, z: -0.000000029628692, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_04
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_03
+      position: {x: -0.00006230651, y: -3.5527144e-19, z: 5.9863226e-17}
+      rotation: {x: 0.00023688377, y: 0.00009509175, z: -0.000000056981087, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_05
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_04
+      position: {x: -0.00006230552, y: -0.000000002378591, z: -0.000000001108067}
+      rotation: {x: -0.00013845014, y: 0.11247627, z: -0.00003099359, w: 0.99365443}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_06
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_05
+      position: {x: -0.000050358038, y: 0.0000028659194, z: 0.0000130594735}
+      rotation: {x: -0.0000808766, y: -0.03686796, z: 0.0000033852684, w: 0.9993202}
+      scale: {x: 1.0000015, y: 1.0000017, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_07
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_06
+      position: {x: -0.000052104413, y: -8.881784e-19, z: 2.0961011e-17}
+      rotation: {x: 0.000022095586, y: 0.000021211798, z: 0.000000117851386, w: 1}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_08
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_07
+      position: {x: -0.000052104413, y: 6.731553e-13, z: -2.1316282e-17}
+      rotation: {x: 0.000012152869, y: 0.0000077784025, z: 0.0000000070935724, w: 1}
+      scale: {x: 1.0000008, y: 1.0000015, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R__Arm_09
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_08
+      position: {x: -0.000052104413, y: 6.731562e-13, z: -1.03028694e-16}
+      rotation: {x: -0.000000014511894, y: 0.0000052973633, z: -0.0000000038234678, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_R_Arm_Wrist
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_09
+      position: {x: -0.000052104384, y: 0.0000000016746127, z: -9.220485e-11}
+      rotation: {x: -0.039369263, y: -0.99409115, z: 0.06186275, w: -0.08003687}
+      scale: {x: 0.99999994, y: 1.0000007, z: 1.0000013}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Meta_Mid_1
+      parentName: animRig_Deadpool_GameReady:UN_R_Arm_Wrist
+      position: {x: 0.000029488592, y: 0.00000042248422, z: -0.000010024658}
+      rotation: {x: 0.015849074, y: 0.046957724, z: -0.029764377, w: 0.99832755}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.000001}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Mid_1
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Meta_Mid_1
+      position: {x: 0.000079563964, y: -0.000001606325, z: -0.0000012798695}
+      rotation: {x: -0.017409582, y: -0.039229132, z: 0.17144649, w: 0.9842582}
+      scale: {x: 1, y: 0.99999994, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Mid_2
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Mid_1
+      position: {x: 0.00004261371, y: -0.000000001721837, z: 1.2057251e-10}
+      rotation: {x: -0.000000009313225, y: -0.00000001862645, z: 0.06847693, w: 0.99765277}
+      scale: {x: 1.0000002, y: 1, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Mid_3
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Mid_2
+      position: {x: 0.00003698376, y: 7.622003e-10, z: -1.7677926e-10}
+      rotation: {x: -5.013411e-10, y: -0.000000019061664, z: 0.04370225, w: 0.99904466}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Meta_Ring_1
+      parentName: animRig_Deadpool_GameReady:UN_R_Arm_Wrist
+      position: {x: 0.000028674, y: -0.0000011247822, z: 0.0000076318465}
+      rotation: {x: -0.019559462, y: -0.033224724, z: -0.0048466567, w: 0.9992447}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Ring_1
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Meta_Ring_1
+      position: {x: 0.00007231336, y: 0.0000016832789, z: -0.00000071554217}
+      rotation: {x: -0.0051004873, y: -0.0016170476, z: 0.13640215, w: 0.9906391}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000007}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Ring_2
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Ring_1
+      position: {x: 0.000039761693, y: 0.0000000027603078, z: -2.9815295e-10}
+      rotation: {x: 0.000000013038513, y: 0.000000018277202, z: 0.104323804, w: 0.99454343}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Ring_3
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Ring_2
+      position: {x: 0.000030776628, y: -9.497128e-10, z: 8.881024e-11}
+      rotation: {x: 0.000000016658921, y: 0.000000022921322, z: -0.011277107, w: 0.9999364}
+      scale: {x: 1, y: 0.9999996, z: 0.99999946}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Meta_Index_1
+      parentName: animRig_Deadpool_GameReady:UN_R_Arm_Wrist
+      position: {x: 0.00002838514, y: 0.0000009285134, z: -0.000024696357}
+      rotation: {x: 0.04213025, y: 0.14356844, z: -0.02482446, w: 0.9884315}
+      scale: {x: 1, y: 1.0000002, z: 1.0000015}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Index_1
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Meta_Index_1
+      position: {x: 0.0000793959, y: -0.00000076539953, z: -0.0000005300977}
+      rotation: {x: 0.06790865, y: -0.047034383, z: 0.15519121, w: 0.9844247}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Index_2
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Index_1
+      position: {x: 0.000046433415, y: 0.0000000033246441, z: 2.5039165e-11}
+      rotation: {x: 0.00000010430811, y: -0.0000000037252894, z: 0.09617987, w: 0.99536395}
+      scale: {x: 0.9999997, y: 1.0000005, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Index_3
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Index_2
+      position: {x: 0.00002754032, y: -0.0000000011513256, z: 1.6006282e-10}
+      rotation: {x: -0.000000021698371, y: 1.4035081e-10, z: 0.088615134, w: 0.9960659}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Thumb_1
+      parentName: animRig_Deadpool_GameReady:UN_R_Arm_Wrist
+      position: {x: 0.000020182575, y: 0.000016291482, z: -0.000024058258}
+      rotation: {x: 0.5897697, y: 0.40457296, z: -0.1768903, w: 0.6761673}
+      scale: {x: 1.0000002, y: 1.0000015, z: 1.0000008}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Thumb_2
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Thumb_1
+      position: {x: 0.00006114063, y: 0.0000000019459083, z: -7.0471967e-10}
+      rotation: {x: -0.000000029802322, y: 0.000000007450581, z: 0.22267805, w: 0.974892}
+      scale: {x: 0.9999997, y: 0.999999, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Thumb_3
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Thumb_2
+      position: {x: 0.0000402889, y: 0.0000000011803251, z: -0.0000000013579174}
+      rotation: {x: 0.000000059604645, y: 0.000000044703484, z: -0.15269896, w: -0.9882728}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Meta_Pinkie_1
+      parentName: animRig_Deadpool_GameReady:UN_R_Arm_Wrist
+      position: {x: 0.000018951921, y: 0.0000044521043, z: 0.000023185645}
+      rotation: {x: -0.09074285, y: -0.12342789, z: 0.015131291, w: 0.9880802}
+      scale: {x: 0.9999998, y: 0.99999946, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Pinkie_1
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Meta_Pinkie_1
+      position: {x: 0.00007077002, y: -0.0000008956691, z: -0.0000000650769}
+      rotation: {x: -0.037347138, y: 0.013312441, z: 0.13618322, w: 0.9898899}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000008}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Pinkie_2
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Pinkie_1
+      position: {x: 0.00003562876, y: 0.0000000029381246, z: -4.542242e-11}
+      rotation: {x: 0.000000033527602, y: -0.000000003725289, z: 0.093844995, w: 0.9955868}
+      scale: {x: 0.999999, y: 1.0000002, z: 0.9999996}
+    - name: animRig_Deadpool_GameReady:UN_R_F_Pinkie_3
+      parentName: animRig_Deadpool_GameReady:UN_R_F_Pinkie_2
+      position: {x: 0.000024177201, y: -7.567288e-10, z: -7.05201e-11}
+      rotation: {x: 0.000000009012658, y: 0.000000016593622, z: -0.009805578, w: 0.9999519}
+      scale: {x: 1.0000006, y: 1, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Arm_Wrist_CorSDK_Bot
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_09
+      position: {x: -0.000042963584, y: 0.000022865766, z: -0.0000016417778}
+      rotation: {x: -0.0393692, y: -0.9940912, z: 0.06186276, w: -0.080036886}
+      scale: {x: 0.9999997, y: 1.0000012, z: 1.0000015}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Arm_Wrist_CorSDK_Top
+      parentName: animRig_Deadpool_GameReady:UN_j_R__Arm_09
+      position: {x: -0.000053914606, y: -0.000020805259, z: 0.000007635053}
+      rotation: {x: -0.0393692, y: -0.9940912, z: 0.06186276, w: -0.080036886}
+      scale: {x: 0.9999996, y: 1.0000005, z: 1.0000007}
+    - name: animRig_Deadpool_GameReady:UN_j_Shipkov_R_Trap
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.000058759862, y: 0.0003162482, z: -0.000047653735}
+      rotation: {x: 0.8329825, y: 0.5532995, z: -0, w: 0}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000007}
+    - name: animRig_Deadpool_GameReady:UN_j_Breathe_Chest_L_Tip
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.00013262575, y: 0.00008867477, z: 0.000027601602}
+      rotation: {x: -0.005509927, y: 0.979794, z: -0.027256407, w: 0.19806696}
+      scale: {x: 1.0000005, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_Breathe_Chest_Sternum
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -1.0348563e-11, y: 0.0000913122, z: 0.0000749909}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Breathe_Chest_L_Mid
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.00013290998, y: 0.00008235001, z: -0.000085989355}
+      rotation: {x: -0.019638462, y: 0.70771575, z: -0.019687591, w: 0.7059498}
+      scale: {x: 1.0000005, y: 1, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_Breathe_Chest_R_Tip
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.00013262604, y: 0.000088671026, z: 0.000027601605}
+      rotation: {x: 0.19806698, y: 0.027256439, z: 0.979794, w: 0.005509921}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Shipkov_R_Pec
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.000086628585, y: 0.00015712366, z: 0.0000779795}
+      rotation: {x: 0.58019364, y: 0.77853453, z: -0.19186915, w: -0.1429883}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_Breathe_Chest_R_Mid
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.00013291, y: 0.000082351005, z: -0.00008598939}
+      rotation: {x: 0.7059497, y: 0.019687602, z: 0.7077158, w: 0.019638456}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_10
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -3.402435e-14, y: 0.00025568774, z: -0.000051415824}
+      rotation: {x: -0.37931746, y: -0.5967565, z: 0.37931746, w: 0.5967565}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_06
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_10
+      position: {x: 0.000054390843, y: -6.584965e-11, z: -3.3893813e-14}
+      rotation: {x: -0, y: -0, z: -0.00000011920929, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_03
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_06
+      position: {x: 0.000040793137, y: -2.497665e-10, z: -1.4143364e-13}
+      rotation: {x: -0, y: -0, z: -0.000008791684, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_Skull
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_03
+      position: {x: 0.000040793184, y: 9.1427454e-10, z: -3.1711046e-13}
+      rotation: {x: 0.37931216, y: 0.59675986, z: -0.37931216, w: 0.59675986}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Eye
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000024976298, y: 0.0000151141385, z: 0.00008761448}
+      rotation: {x: 0.9993128, y: -0.026924336, z: 0.000686094, w: 0.025467033}
+      scale: {x: 1, y: 1.0000007, z: 1.0000007}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Eye
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000024976265, y: 0.0000151123195, z: 0.00008761448}
+      rotation: {x: -0.025467033, y: -0.0006860791, z: -0.026924336, w: 0.9993128}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_Flap_1
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -5.551115e-20, y: 0.00010459526, z: -0.000005391261}
+      rotation: {x: -0.10836674, y: -0.69875365, z: 0.10836674, w: 0.6987537}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: animRig_Deadpool_GameReady:UN_Flap_2
+      parentName: animRig_Deadpool_GameReady:UN_Flap_1
+      position: {x: -0.000031337913, y: -3.907985e-18, z: 2.1094238e-19}
+      rotation: {x: -0.00000002235174, y: -0, z: 0.03234536, w: 0.9994768}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_Flap_3
+      parentName: animRig_Deadpool_GameReady:UN_Flap_2
+      position: {x: -0.000027534816, y: -3.5527134e-18, z: 1.9984014e-19}
+      rotation: {x: -0.000000014901161, y: -0.000000059604645, z: 0.016400717, w: 0.99986553}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_Jaw01
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 1.6653346e-19, y: 0.000007730261, z: 0.000023688206}
+      rotation: {x: 0.28953603, y: -0, z: -0, w: 0.9571671}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Cheekbone
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000031516505, y: -0.000008845861, z: 0.00009676667}
+      rotation: {x: 0.9747121, y: -0, z: -0.22346437, w: -0.000000014901159}
+      scale: {x: 1, y: 1.0000001, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Cheekbone
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.00003151649, y: -0.000008846827, z: 0.00009676667}
+      rotation: {x: -0, y: -0.22346441, z: 0.000000014901161, w: 0.97471213}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Forehead
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 7.6605403e-19, y: 0.000058777132, z: 0.000105239844}
+      rotation: {x: -0.16522814, y: -0, z: -0, w: 0.9862554}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Brow_Out
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.0000431595, y: 0.000025954148, z: 0.00009691626}
+      rotation: {x: 0.92063147, y: -0, z: -0.3904327, w: -0.000000007450581}
+      scale: {x: 1, y: 0.99999946, z: 0.9999995}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Brow_Mid
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.00003142771, y: 0.000028144133, z: 0.00010701095}
+      rotation: {x: 0.9774899, y: 0.000000029802319, z: -0.21098247, w: 0.000000014901159}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Brow_In
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.0000147362, y: 0.000025984138, z: 0.00011194935}
+      rotation: {x: 0.99934083, y: -0, z: -0.03630284, w: 0}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_03
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000022316002, y: 0.000016263417, z: 0.00010535148}
+      rotation: {x: 0.0030468553, y: 0.0010191202, z: 0.00046016276, w: 0.99999475}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_04
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.00002803047, y: 0.000017131562, z: 0.00010533502}
+      rotation: {x: 0.0027818233, y: 0.00035241246, z: -0.00047843158, w: 0.999996}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_05
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000033890312, y: 0.000017212551, z: 0.000103088554}
+      rotation: {x: 0.000015974045, y: 0.000010997057, z: -0.00000923872, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_06
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000038281334, y: 0.000016484579, z: 0.00009950671}
+      rotation: {x: 0.0027741939, y: -0.0011662841, z: -0.0031110495, w: 0.9999907}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_08
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000041577012, y: 0.000014283485, z: 0.00009408061}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_07
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000040507697, y: 0.000015311218, z: 0.00009619162}
+      rotation: {x: 0.0017938018, y: -0.0012874901, z: -0.0032580495, w: 0.99999225}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Bot_06
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000040043724, y: 0.000012090264, z: 0.0000958428}
+      rotation: {x: -0.0032647396, y: -0.0055534537, z: 0.006057932, w: 0.9999609}
+      scale: {x: 1, y: 0.99999964, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Bot_04
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000032865653, y: 0.000008042112, z: 0.000102031954}
+      rotation: {x: 0.0003005117, y: -0.00034883615, z: -0.00016461311, w: 0.9999999}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Bot_05
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000037293703, y: 0.0000095474325, z: 0.00009901166}
+      rotation: {x: -0.00006836653, y: -0.0006161928, z: 0.00007399917, w: 0.9999999}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Bot_03
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000027242839, y: 0.000007833413, z: 0.0001036699}
+      rotation: {x: -0.0039615477, y: 0.00020754334, z: 0.00055842096, w: 0.999992}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_R_Sneer
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000009761548, y: -0.00000033586164, z: 0.00010527691}
+      rotation: {x: 0.9355756, y: 0.05502548, z: -0.33580628, w: 0.09436495}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Sneer
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.0000097615475, y: -0.00000033745002, z: 0.00010527684}
+      rotation: {x: -0.09436494, y: -0.33580613, z: -0.05502546, w: 0.93557566}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Bot_01
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000017679546, y: 0.000009412853, z: 0.00010301522}
+      rotation: {x: 0.000041007996, y: 0.00014039874, z: 0.000019431114, w: 1}
+      scale: {x: 1, y: 0.99999964, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_00
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000015577987, y: 0.000010303972, z: 0.00010169468}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_01
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000015966589, y: 0.000011916935, z: 0.0001025424}
+      rotation: {x: 0.0030954177, y: 0.0059367707, z: 0.0018934307, w: 0.9999758}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Top_02
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.000017953651, y: 0.000014313466, z: 0.00010390339}
+      rotation: {x: -0.008306861, y: -0.0060822368, z: -0.0035215616, w: 0.9999409}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Brow_Center
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 7.9936056e-19, y: 0.000022306218, z: 0.00011192864}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Brow_In
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000014736169, y: 0.00002598274, z: 0.00011194935}
+      rotation: {x: -0.000000014901163, y: -0.03630284, z: -0.000000014901163, w: 0.99934083}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Brow_Mid
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000031427724, y: 0.000028144676, z: 0.000107011016}
+      rotation: {x: -0.000000029802319, y: -0.21098244, z: -0.000000014901159, w: 0.9774898}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_R_Eye_Bot_02
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: 0.00002162371, y: 0.000008493426, z: 0.0001038173}
+      rotation: {x: 0.0026895402, y: -0.0006039142, z: 0.0005548298, w: 0.99999607}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_01
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000015966587, y: 0.000011916922, z: 0.0001025424}
+      rotation: {x: 0.0030954021, y: -0.005936799, z: -0.0018934452, w: 0.9999758}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_02
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000017953646, y: 0.000014313582, z: 0.00010390339}
+      rotation: {x: -0.008306978, y: 0.006082265, z: 0.003521531, w: 0.9999409}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Brow_Out
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.0000431595, y: 0.000025951442, z: 0.00009691629}
+      rotation: {x: -0.00000008940696, y: -0.39043272, z: 0.0000000372529, w: 0.9206315}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_03
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000022316002, y: 0.000016263468, z: 0.00010535148}
+      rotation: {x: 0.0030467801, y: -0.0010191498, z: -0.00046014774, w: 0.99999475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_04
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000028030472, y: 0.000017131446, z: 0.00010533504}
+      rotation: {x: 0.0027817932, y: -0.00035244224, z: 0.00047846133, w: 0.99999595}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_05
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000033890312, y: 0.000017212495, z: 0.000103088554}
+      rotation: {x: 0.00001595914, y: -0.000010997054, z: 0.000009194015, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Bot_06
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000040043724, y: 0.0000120902505, z: 0.0000958428}
+      rotation: {x: -0.0032647692, y: 0.0055534826, z: -0.0060579614, w: 0.9999609}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Bot_02
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.00002162371, y: 0.000008493365, z: 0.00010381726}
+      rotation: {x: 0.00268948, y: 0.00060388434, z: -0.0005548297, w: 0.99999607}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Bot_01
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000017679546, y: 0.000009412833, z: 0.00010301522}
+      rotation: {x: 0.000040933486, y: -0.00014039873, z: -0.000019446014, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_00
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000015578002, y: 0.000010303915, z: 0.00010169468}
+      rotation: {x: -0.00000005960463, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Bot_03
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000027242831, y: 0.000007833417, z: 0.0001036699}
+      rotation: {x: -0.003961577, y: -0.00020748372, z: -0.0005584209, w: 0.99999195}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Bot_04
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.00003286565, y: 0.0000080421205, z: 0.000102031954}
+      rotation: {x: 0.0003004819, y: 0.00034886596, z: 0.00016458331, w: 0.9999999}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Bot_05
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000037293717, y: 0.000009547461, z: 0.00009901166}
+      rotation: {x: -0.00006847083, y: 0.00061622256, z: -0.00007401406, w: 0.9999999}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_06
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.00003828132, y: 0.000016484693, z: 0.00009950671}
+      rotation: {x: 0.0027741038, y: 0.0011663137, z: 0.0031109892, w: 0.99999064}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_08
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.00004157702, y: 0.0000142835415, z: 0.00009408061}
+      rotation: {x: -0.00000005960463, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Fc_L_Eye_Top_07
+      parentName: animRig_Deadpool_GameReady:UN_Skull
+      position: {x: -0.000040507697, y: 0.00001531121, z: 0.00009619162}
+      rotation: {x: 0.0017937121, y: 0.0012874602, z: 0.0032580788, w: 0.99999225}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_02
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_03
+      position: {x: 0.000013597711, y: 3.8883693e-10, z: -6.3104334e-14}
+      rotation: {x: 0.000000014901159, y: 0.000000029802319, z: 0.000014320014, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_01
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_02
+      position: {x: 0.000013597711, y: -1.2159829e-10, z: -8.479172e-14}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: -0.0000058710575, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_05
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_06
+      position: {x: 0.000013597711, y: -9.090781e-12, z: -5.3002625e-15}
+      rotation: {x: -0, y: -0, z: 0.00000011920929, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_04
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_05
+      position: {x: 0.000013597711, y: 2.4158448e-17, z: -3.678892e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_09
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_10
+      position: {x: 0.000013597711, y: -1.7483409e-11, z: -3.6788932e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_08
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_09
+      position: {x: 0.000013597711, y: -1.1448205e-11, z: -5.7207144e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_Neck_07
+      parentName: animRig_Deadpool_GameReady:UN_j_Neck_08
+      position: {x: 0.000013597711, y: -1.4672511e-11, z: -6.2957786e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Shipkov_L_Scapula
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.00006453053, y: 0.0001560326, z: -0.00013648185}
+      rotation: {x: 0.056532793, y: 0.0485728, z: 0.6498765, w: 0.75637645}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Breathe_Chest_L_Base
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -0.000028940418, y: 0.00007987944, z: -0.00013036}
+      rotation: {x: -0.02724255, y: 0.20051433, z: -0.0055780094, w: 0.979296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_Shipkov_R_Scapula
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.00006453053, y: 0.0001560326, z: -0.00013648185}
+      rotation: {x: 0.64987653, y: 0.75637645, z: 0.056532815, w: 0.048572823}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_Breathe_Chest_R_Base
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: 0.000028940402, y: 0.000079881, z: -0.00013036036}
+      rotation: {x: 0.979296, y: 0.0055780094, z: 0.20051433, w: 0.02724255}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_j_Sword_Brace
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_1_Ribcage
+      position: {x: -2.2717056e-12, y: 0.000018952407, z: -0.00012198202}
+      rotation: {x: 0.6762126, y: -5.551114e-16, z: 0.000000020877676, w: 0.7367065}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_00
+      parentName: animRig_Deadpool_GameReady:UN_sp_Spine_5_Pelvis
+      position: {x: -0.000077193, y: -0.000004885303, z: -0.000008515519}
+      rotation: {x: -0.036095336, y: 0.006717968, z: 0.63162285, w: 0.77440596}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_00
+      position: {x: -0.00018341727, y: 0.00008772444, z: 0.00006282935}
+      rotation: {x: -0.17234315, y: -0.45451438, z: -0.69429785, w: 0.53072125}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_0
+      position: {x: -0.0000034545794, y: 0.000029581795, z: -0.0000027181684}
+      rotation: {x: -0.019173866, y: -0.00000008940696, z: 0.000000029802319, w: 0.9998162}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_1
+      position: {x: -0.000006548068, y: 0.000028074102, z: -0.0000006436156}
+      rotation: {x: -0.017000366, y: 0.000000029802322, z: 0.000000057742, w: 0.9998555}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_2
+      position: {x: -0.0000048124407, y: 0.000027612023, z: 0.00000094062494}
+      rotation: {x: -0.011993773, y: 0.000000059604645, z: -0.0000000037252903, w: 0.9999281}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_3
+      position: {x: -0.0000024810188, y: 0.000027473116, z: 0.0000009203506}
+      rotation: {x: -0.0040028957, y: -0.000000089144024, z: -0.000000023661235, w: 0.999992}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_4
+      position: {x: -0.00000058356324, y: 0.000027217722, z: 0.00000062656625}
+      rotation: {x: -0.013561813, y: -0, z: 0.0000000037252899, w: 0.99990803}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_5
+      position: {x: 0.0000013023955, y: 0.000026815478, z: -0.00000022422417}
+      rotation: {x: -0.04047739, y: 0.00000006015407, z: -0.000000028986136, w: 0.9991805}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_6
+      position: {x: 0.0000027621966, y: 0.000026786678, z: -0.00000005333397}
+      rotation: {x: -0.013365218, y: -0.000000060018394, z: -3.1658443e-10, w: 0.9999108}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_L_F_Thigh_Strap_7
+      position: {x: 0.0000016891465, y: 0.000028967266, z: 0.0000021098317}
+      rotation: {x: 0.06736525, y: 0.000000029985575, z: 0.000000020642553, w: 0.99772835}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_0
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_00
+      position: {x: -0.000171893, y: 0.000085203625, z: -0.00003910133}
+      rotation: {x: -0.46079537, y: -0.6544202, z: -0.52340996, w: 0.29230773}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000008}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_1
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_0
+      position: {x: -0.0000026822727, y: 0.000033240154, z: 0.00000057368374}
+      rotation: {x: -0.019173894, y: -0.000000059604645, z: -0.00000010803342, w: 0.9998162}
+      scale: {x: 0.9999996, y: 1, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_2
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_1
+      position: {x: -0.000005229209, y: 0.00003490687, z: -0.00000066907614}
+      rotation: {x: -0.01700034, y: 0.00000011920929, z: 0.000000063329935, w: 0.9998555}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_3
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_2
+      position: {x: -0.000004020555, y: 0.000033925608, z: -0.0000013701796}
+      rotation: {x: -0.011993733, y: -0, z: -0, w: 0.9999281}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_4
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_3
+      position: {x: -0.0000020792295, y: 0.00003320755, z: -0.0000009918084}
+      rotation: {x: -0.0040029176, y: -0.000000059604645, z: -0.000000007450581, w: 0.9999921}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_5
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_4
+      position: {x: -0.00000027766825, y: 0.000032759635, z: -0.0000009114373}
+      rotation: {x: -0.009795698, y: 0.00037983054, z: -0.0014879776, w: 0.9999508}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_6
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_5
+      position: {x: 0.0000022060367, y: 0.00003164641, z: -0.0000015145644}
+      rotation: {x: -0.03119222, y: 0.0030859374, z: -0.010308269, w: 0.9994556}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_7
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_6
+      position: {x: 0.000004340193, y: 0.00003064738, z: -0.0000013560748}
+      rotation: {x: -0.017283374, y: 0.0076832953, z: -0.021765333, w: 0.99958414}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999998}
+    - name: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_8
+      parentName: animRig_Deadpool_GameReady:UN_j_L_B_Thigh_Strap_7
+      position: {x: 0.0000025043116, y: 0.00003094909, z: 0.0000004977526}
+      rotation: {x: 0.03342645, y: 0.0043937466, z: -0.01311779, w: 0.9993454}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_01
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_00
+      position: {x: -0.000092713286, y: -4.440893e-20, z: -7.1054287e-19}
+      rotation: {x: -0.000000007450581, y: 0.000000040978193, z: -0.0000000131403795, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_02
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_01
+      position: {x: -0.000092713286, y: -2.3866993e-12, z: -2.5083688e-10}
+      rotation: {x: 0.000000011175871, y: -0.00000008335337, z: -0.000000014988473, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_Thigh_Pouch
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_02
+      position: {x: -0.000020808186, y: 0.000032151154, z: 0.0001098753}
+      rotation: {x: -0.0382556, y: -0.11891686, z: -0.7164108, w: 0.68640435}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_03
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_02
+      position: {x: -0.000092713286, y: -1.5573418e-12, z: -6.246177e-10}
+      rotation: {x: -0.00002100505, y: -0.000009095762, z: -0.00000004780119, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_04
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_03
+      position: {x: -0.000092713286, y: -1.5954926e-12, z: -5.7340785e-16}
+      rotation: {x: 0.45325783, y: 0.0924687, z: 0.029847791, w: 0.88606775}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_05
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_04
+      position: {x: -0.000092713184, y: -1.8113886e-12, z: 6.6043414e-11}
+      rotation: {x: 0.000063111256, y: -0.05096639, z: -0.000006519462, w: 0.9987004}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_06
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_05
+      position: {x: -0.00008226366, y: 0.000000010086442, z: -0.000054770637}
+      rotation: {x: 0.000036982095, y: -0.05099288, z: -0.000007766423, w: 0.99869907}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_07
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_06
+      position: {x: -0.00009882891, y: -1.6582305e-12, z: -1.2718719e-16}
+      rotation: {x: -4.001776e-10, y: -0.0000054910774, z: -0.0000000040837445, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000005}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_08
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_07
+      position: {x: -0.00009882891, y: -7.9550006e-13, z: -1.00186514e-16}
+      rotation: {x: -0.000016511742, y: 0.000000014901159, z: -0.00000006498708, w: 1}
+      scale: {x: 1.0000007, y: 1.0000001, z: 0.9999997}
+    - name: animRig_Deadpool_GameReady:UN_j_L_Knife
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_08
+      position: {x: -0.00006518117, y: 0.0000574206, z: -0.000010022494}
+      rotation: {x: -0.028402654, y: 0.072232336, z: -0.6320109, w: 0.7710629}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: animRig_Deadpool_GameReady:UN_j_L__Leg_09
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_08
+      position: {x: -0.00009882891, y: -6.5940894e-13, z: -3.6993067e-10}
+      rotation: {x: 0.0000000037816785, y: 0.000000029802315, z: 3.1583539e-10, w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_L_Leg_Ankle
+      parentName: animRig_Deadpool_GameReady:UN_j_L__Leg_09
+      position: {x: -0.00009882871, y: -8.571347e-12, z: -6.029222e-10}
+      rotation: {x: -0.093632184, y: -0.007922138, z: -0.6256817, w: 0.7743983}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: animRig_Deadpool_GameReady:UN_L_Leg_Toe
+      parentName: animRig_Deadpool_GameReady:UN_L_Leg_Ankle
+      position: {x: -2.2204465e-20, y: -0.00008183722, z: 0.00013491976}
+      rotation: {x: 0.00000005960463, y: -0.00000004051252, z: 0.00000003614695, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
