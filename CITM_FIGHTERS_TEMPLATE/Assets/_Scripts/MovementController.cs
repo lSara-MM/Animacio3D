@@ -101,6 +101,6 @@ public class MovementController : MonoBehaviour
 
     void MovePlayer(float speed)
     {
-        transform.position = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * speed * Time.deltaTime;
+        transform.Translate(new Vector3(1, 0 , 0) * speed * Time.deltaTime);
     }
 }
