@@ -1669,7 +1669,7 @@ Transform:
   - {fileID: 1637611201330462199}
   - {fileID: 1572818098753973848}
   m_Father: {fileID: 0}
-  m_RootOrder: -2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1108936239705920694
 Animator:
@@ -1681,7 +1681,7 @@ Animator:
   m_GameObject: {fileID: 5965096709858464886}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ae2a53ded74d0054087714bbdb14a863, type: 3}
-  m_Controller: {fileID: 9100000, guid: fefbc99daea72d14099a2f28384b5804, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1b81fb364205d464e91d4514cdc76c88, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1718,11 +1718,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartPositions:
-  - {x: -1, y: 1, z: 0}
   - {x: 1, y: 1, z: 0}
+  - {x: -1, y: 1, z: 0}
   StartRotations:
-  - {x: 0, y: 90, z: 0}
   - {x: 0, y: -90, z: 0}
+  - {x: 0, y: 90, z: 0}
 --- !u!114 &1278589643326711134
 MonoBehaviour:
   m_ObjectHideFlags: 0
