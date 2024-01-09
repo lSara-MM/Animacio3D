@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     GameObject ImpactPrefab;
- 
+
     // Start is called before the first frame update
     private bool _isAttacking;
     private bool _isBlocking;
@@ -20,7 +20,8 @@ public class PlayerController : MonoBehaviour
 
     public bool Dead => _dead;
 
-
+    public Camera cam;
+    [SerializeField] bool camAnim = false;
 
 
     #region AnimationParamNames
@@ -37,7 +38,7 @@ public class PlayerController : MonoBehaviour
     const string DIE = "Die";
     const string WIN = "Win";
 
-    
+
 
     #endregion
 
@@ -46,12 +47,39 @@ public class PlayerController : MonoBehaviour
 
     static int _playercount;
     int _id;
+
     private bool _dead;
+    private bool _win = false;
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+        cam = GameObject.Find("Main Camera").GetComponent<Camera>();
         _id = _playercount++;
+    }
+
+    private void Update()
+    {
+        if ((_isAttacking || _isBlocking) && _animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
+        {
+            if (_isAttacking)
+            {
+                _isAttacking = false;
+                Debug.Log("Attacking false");
+            }
+
+            if (_isBlocking)
+            {
+                _isBlocking = false;
+                Debug.Log("Blocking false");
+            }
+        }
+
+        if (_win)
+        {
+            Vector3 target = transform.position - new Vector3(0, -2, 3);
+            cam.transform.position = Vector3.MoveTowards(cam.transform.position, target, 5f * Time.deltaTime);
+        }
     }
 
     public void SetOtherPlayer(Transform other)
@@ -63,9 +91,11 @@ public class PlayerController : MonoBehaviour
     {
         _isAttacking = value;
         UpOrDown = upDown;
+
+        Debug.Log(value);
     }
 
-   
+
 
     internal void SetBlocking(bool value, UpDown upDown)
     {
@@ -76,34 +106,52 @@ public class PlayerController : MonoBehaviour
     public void TryHighQuickAttack()
     {
         if (CanAttack)
+        {
             _animator.SetTrigger(ATTACK_HIGH_QUICK);
+            SetAtacking(true, UpDown.Up);
+        }
     }
     public void TryHighSlowAttack()
     {
         if (CanAttack)
+        {
             _animator.SetTrigger(ATTACK_HIGH_SLOW);
+            SetAtacking(true, UpDown.Up);
+        }
     }
     public void TryLowQuickAttack()
     {
         if (CanAttack)
+        {
             _animator.SetTrigger(ATTACK_LOW_QUICK);
+            SetAtacking(true, UpDown.Down);
+        }
     }
     public void TryLowSlowAttack()
     {
         if (CanAttack)
+        {
             _animator.SetTrigger(ATTACK_LOW_SLOW);
+            SetAtacking(true, UpDown.Down);
+        }
     }
 
     internal void TryHighBlock()
     {
         if (CanBlock)
+        {
             _animator.SetTrigger(BLOCK_HIGH);
+            SetBlocking(true, UpDown.Up);
+        }
     }
 
     internal void TryLowBlock()
     {
         if (CanBlock)
+        {
             _animator.SetTrigger(BLOCK_LOW);
+            SetBlocking(true, UpDown.Down);
+        }
     }
 
 
@@ -112,13 +160,13 @@ public class PlayerController : MonoBehaviour
         var hitBy = hit.root.GetComponent<PlayerController>();
         if (hitBy.transform == _otherPlayer && hitBy._isAttacking)
         {
-            if (!_isBlocking || hitBy.UpOrDown!=this.UpOrDown || hitBy.Dead)
+            if (!_isBlocking || hitBy.UpOrDown != this.UpOrDown || hitBy.Dead)
             {
                 Die();
                 hitBy.Win();
                 Instantiate(ImpactPrefab, hit.position, Quaternion.identity);
             }
-            
+
         }
     }
 
@@ -126,10 +174,8 @@ public class PlayerController : MonoBehaviour
     {
         _animator.SetTrigger(DIE);
 
-      //  GetComponent<AudioSource>().Play();
+        //  GetComponent<AudioSource>().Play();
         StartCoroutine(DieLater());
-
-
     }
 
     IEnumerator DieLater()
@@ -146,6 +192,7 @@ public class PlayerController : MonoBehaviour
     public void Win()
     {
         _animator.SetTrigger(WIN);
+        _win = true;
     }
 }
 

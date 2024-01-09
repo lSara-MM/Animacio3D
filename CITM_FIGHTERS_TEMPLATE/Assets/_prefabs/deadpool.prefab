@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: deadpool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cc1db95d9803e2749be08869de87c093, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2285652591548130377, guid: cc1db95d9803e2749be08869de87c093, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -105,6 +109,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc1db95d9803e2749be08869de87c093, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1007684638295724161}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc1db95d9803e2749be08869de87c093, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3424171980927487290}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc1db95d9803e2749be08869de87c093, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7762639593651840643}
     - targetCorrespondingSourceObject: {fileID: 2374110438838408000, guid: cc1db95d9803e2749be08869de87c093, type: 3}
       insertIndex: -1
       addedObject: {fileID: 211814564449904620}
@@ -471,6 +481,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ImpactPrefab: {fileID: 100002, guid: 4ace374ac48734e0a8159109bc4c6bbb, type: 3}
+  cam: {fileID: 0}
+  camAnim: 1
 --- !u!114 &659427720324581504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +653,56 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!136 &3424171980927487290
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2955114045163200304}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.042032495
+  m_Height: 0.18647732
+  m_Direction: 1
+  m_Center: {x: 0.013391563, y: 0.09422017, z: 0.15424891}
+--- !u!54 &7762639593651840643
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2955114045163200304}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4083280802308215703 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2119364745071276534, guid: cc1db95d9803e2749be08869de87c093, type: 3}

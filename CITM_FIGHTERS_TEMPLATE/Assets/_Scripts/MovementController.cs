@@ -12,8 +12,7 @@ public class MovementController : MonoBehaviour
     float SafetyDistance = 0.5f;
     // Start is called before the first frame update
 
-
-
+    private bool _isColliding = false;
 
     #region AnimationParamNames
     const string SPEED = "Speed";
@@ -43,7 +42,7 @@ public class MovementController : MonoBehaviour
 
     public void TryMove(float speed)
     {
-        if (CanMove(speed) && speed != 0f)
+        if (CanMove(speed) && speed != 0f && !_isColliding)
         {
             float directionSpeed = _id == 1 ? -speed : speed;
 
@@ -100,5 +99,23 @@ public class MovementController : MonoBehaviour
             return false;
 
         return true;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Player")
+        {
+            _isColliding = true;
+            Debug.Log("OnCollisionEnter Player");
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.collider.tag == "Player")
+        {
+            _isColliding = false;
+            Debug.Log("OnCollisionExit Player");
+        }
     }
 }
