@@ -6,14 +6,14 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     [SerializeField]
-    Vector2 MoveLimits=new Vector2(-5,5);
+    Vector2 MoveLimits = new Vector2(-5, 5);
 
     [SerializeField]
-    float SafetyDistance=0.5f;
+    float SafetyDistance = 0.5f;
     // Start is called before the first frame update
-   
 
-    
+
+
 
     #region AnimationParamNames
     const string SPEED = "Speed";
@@ -40,27 +40,29 @@ public class MovementController : MonoBehaviour
         _otherPlayer = other;
     }
 
-    
+
     public void TryMove(float speed)
     {
-        
+        if (CanMove(speed) && speed != 0f)
+        {
+            float directionSpeed = _id == 1 ? -speed : speed;
 
-        if (CanMove(speed))
-        {       
-            _animator.SetFloat(SPEED, _id == 1 ? -speed : speed);
+            _animator.SetFloat(SPEED, speed > 0f ? 1 : -1);
+
+            float deltaSpeed = directionSpeed * Time.deltaTime;
+
+            Vector3 pos = transform.position;
+            pos.x += deltaSpeed;
+            transform.position = pos;
         }
-            
         else
+        {
             _animator.SetFloat(SPEED, 0);
-
-
+        }
     }
 
     public void LateUpdate()
     {
-        var pos = transform.position;
-        pos.z = 0;
-        transform.position = pos;
     }
 
     bool CanMove(float speed)
@@ -99,6 +101,4 @@ public class MovementController : MonoBehaviour
 
         return true;
     }
-
-  
 }
