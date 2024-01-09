@@ -1,0 +1,651 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ca' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Usuario/Documents/CITM/Projects/Unity/Animacio3D/CITM_FIGHTERS_TEMPLATE
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60556
+Successfully changed project path to: C:/Users/Usuario/Documents/CITM/Projects/Unity/Animacio3D/CITM_FIGHTERS_TEMPLATE
+C:/Users/Usuario/Documents/CITM/Projects/Unity/Animacio3D/CITM_FIGHTERS_TEMPLATE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33272] Host "[IP] 192.168.1.96 [Port] 0 [Flags] 2 [Guid] 339802831 [EditorId] 339802831 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NLUBGJGV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [33272] Host "[IP] 192.168.1.96 [Port] 0 [Flags] 2 [Guid] 339802831 [EditorId] 339802831 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NLUBGJGV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Documents/CITM/Projects/Unity/Animacio3D/CITM_FIGHTERS_TEMPLATE/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008348 seconds.
+- Loaded All Assemblies, in  0.467 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 745ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-00000221D26CCE30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F4A43020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2662890 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D26CCE30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2133010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1DAA030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1DAA030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1DAA030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2133010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D26CCE30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2662890 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D26CCE30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2176030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D26CCE30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F46F2A30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2176030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F46F2A30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F4705E40 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F4705E40 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2176030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2176030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 1149ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.3 MB). Loaded Objects now: 2397.
+Memory consumption went from 116.0 MB to 114.7 MB.
+Total: 4.874100 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.116300 ms MarkObjects: 4.017800 ms  DeleteObjects: 0.498300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198037.023650 seconds.
+  path: Assets/Materials/kachujin_MAT_.mat
+  artifactKey: Guid(530b41a24e7fc3c43ac8a69e4c1ef57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kachujin_MAT_.mat using Guid(530b41a24e7fc3c43ac8a69e4c1ef57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7a1558cae556ef1f61839e0064f17f') in 0.111767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/kachujin_MAT.mat
+  artifactKey: Guid(e2a98a9e85024a6438f6877ac7bbe4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kachujin_MAT.mat using Guid(e2a98a9e85024a6438f6877ac7bbe4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51584b57d4744382c3b0dd097bc1886c') in 0.008520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/fire_8x2.mat
+  artifactKey: Guid(a4aa39205d4684799b1966aceba84c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/fire_8x2.mat using Guid(a4aa39205d4684799b1966aceba84c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60878b8cc74fe9d058f9715ed60b83e') in 0.013458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/Ground.mat
+  artifactKey: Guid(f5787d80b207a495da082c186b3e11d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/Ground.mat using Guid(f5787d80b207a495da082c186b3e11d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3aa900983458c2d7f7532adbf34412') in 0.160282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.832620 seconds.
+  path: Assets/_Scripts/MovementController.cs
+  artifactKey: Guid(e0238b7fd6212d2448340f30bf2329d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/MovementController.cs using Guid(e0238b7fd6212d2448340f30bf2329d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd7ce2f29bf048c284726c56bd857a7') in 0.000675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.147510 seconds.
+  path: Assets/_Scripts/PlayerStart.cs
+  artifactKey: Guid(70c0a9a24b51e134e8535f7e81cfdfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/PlayerStart.cs using Guid(70c0a9a24b51e134e8535f7e81cfdfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fc6aa468239bdbb0c33f7687b7b419') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-00000221F4A43020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F3FBC9F0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F55C6320 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D20FE010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F588E020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F55C6320 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D18E1A10 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1FA1E20 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F471A050 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D20FE010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F3CF4E20 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D20FE010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1A78020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1FA1E20 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FD8D9050 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1E9E010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1AB0A30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F55C6320 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F55C6320 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F55C6320 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F509C020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.434 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 2441.
+Memory consumption went from 114.6 MB to 113.3 MB.
+Total: 2.638100 ms (FindLiveObjects: 0.152400 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.173700 ms  DeleteObjects: 0.263100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.250884 seconds.
+  path: Assets/_prefabs/deadpool.prefab
+  artifactKey: Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_prefabs/deadpool.prefab using Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811439611006267b7ae46b9593228afb') in 0.133155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1576
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-00000221F4A43020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F40EE030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002225F22DC30 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FC7A4BB0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCD23CB0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FD44D570 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCD6B790 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCED3E10 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FC960750 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FC7A4BB0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCCDCCB0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FC323020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCD7DBD0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCDCE780 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F5200030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCD7DBD0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D23E4010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCA2CEF0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FC2D5050 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1D61DA0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FC64F010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.369 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1088ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (722ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 2446.
+Memory consumption went from 118.9 MB to 117.7 MB.
+Total: 3.152800 ms (FindLiveObjects: 0.205100 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.557100 ms  DeleteObjects: 0.339600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.566845 seconds.
+  path: Assets/_prefabs/deadpool.prefab
+  artifactKey: Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_prefabs/deadpool.prefab using Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c8e702e94b279a5377fa833dc2d73b') in 0.178428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1614
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002225E58F510 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F40EE030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F4527F20 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221AEDE6380 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCE690C0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002225E73C3B0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002225EE3B060 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCEE94F0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F3DA2020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221AEDE6380 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FD2AA4C0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002225F00D030 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221FCD7DBD0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D2647060 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D1D46010 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002225EDF7020 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F3F43070 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002225EE4E0D0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002225E73C3B0 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221F3F43070 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000221D20A2050 doesn't match image C:\Users\Usuario\Documents\CITM\Projects\Unity\Animacio3D\CITM_FIGHTERS_TEMPLATE\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.739 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (740ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 2449.
+Memory consumption went from 120.9 MB to 119.7 MB.
+Total: 3.170500 ms (FindLiveObjects: 0.182000 ms CreateObjectMapping: 0.051900 ms MarkObjects: 2.609500 ms  DeleteObjects: 0.325800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 242.208620 seconds.
+  path: Assets/_prefabs/deadpool.prefab
+  artifactKey: Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_prefabs/deadpool.prefab using Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc1b86e8e96560852ca57202a2c80b1') in 0.173940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1615
+========================================================================
+Received Import Request.
+  Time since last request: 7.854631 seconds.
+  path: Assets/_prefabs/deadpool.prefab
+  artifactKey: Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_prefabs/deadpool.prefab using Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daf7dcbb8477cc500b6b9adb6f78ce4') in 0.112110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1615
+========================================================================
+Received Import Request.
+  Time since last request: 2.303587 seconds.
+  path: Assets/_prefabs/deadpool.prefab
+  artifactKey: Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_prefabs/deadpool.prefab using Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c044f21495f70b0946562f3c1f73732d') in 0.101551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1615
+========================================================================
+Received Import Request.
+  Time since last request: 4.123374 seconds.
+  path: Assets/_prefabs/deadpool.prefab
+  artifactKey: Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_prefabs/deadpool.prefab using Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7c12e7c606c49b699dde4cb51f1b56') in 0.100378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1615
+========================================================================
+Received Import Request.
+  Time since last request: 1.702002 seconds.
+  path: Assets/_prefabs/deadpool.prefab
+  artifactKey: Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_prefabs/deadpool.prefab using Guid(03e44a9a305752c4bbbe54e4fdea2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce9c23d4980b04b270f610ce247047a') in 0.102131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1615

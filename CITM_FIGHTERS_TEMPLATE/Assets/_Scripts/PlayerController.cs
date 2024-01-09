@@ -120,9 +120,6 @@ public class PlayerController : MonoBehaviour
             }
             
         }
-        
-
-        
     }
 
     private void Die()
