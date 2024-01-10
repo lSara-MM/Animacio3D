@@ -73,13 +73,13 @@ public class PlayerController : MonoBehaviour
             if (_isAttacking)
             {
                 _isAttacking = false;
-                Debug.Log("Attacking false");
+                //Debug.Log("Attacking false");
             }
 
             if (_isBlocking)
             {
                 _isBlocking = false;
-                Debug.Log("Blocking false");
+                //Debug.Log("Blocking false");
             }
         }
 
@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour
 
         if (atk != null) atk.Play();
 
-        Debug.Log(value);
+        //Debug.Log(value);
     }
 
 

@@ -827,7 +827,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d3180d0b176a38b4c9df4621de6807b3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1166,8 +1166,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.034744177, y: 0.09506041, z: 0.023455555}
-  m_Center: {x: -0.00030605795, y: 0.02824407, z: 0.00030174654}
+  m_Size: {x: 0.034744177, y: 0.13509792, z: 0.010511726}
+  m_Center: {x: -0.00030605795, y: 0.02159386, z: -0.0061698463}
 --- !u!114 &3795302562485663286
 MonoBehaviour:
   m_ObjectHideFlags: 0
