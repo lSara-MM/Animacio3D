@@ -22,6 +22,8 @@ public class MovementController : MonoBehaviour
 
     #endregion
 
+    Rigidbody m_Rigidbody;
+
     private Animator _animator;
     private Transform _otherPlayer;
 
@@ -31,6 +33,7 @@ public class MovementController : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+        m_Rigidbody = GetComponent<Rigidbody>();
         _id = _playercount++;
     }
 
@@ -42,7 +45,7 @@ public class MovementController : MonoBehaviour
 
     public void TryMove(float speed)
     {
-        if (CanMove(speed) && speed != 0f && !_isColliding)
+        if (CanMove(speed) && speed != 0f)
         {
             float directionSpeed = _id == 1 ? -speed : speed;
 
@@ -58,6 +61,16 @@ public class MovementController : MonoBehaviour
         {
             _animator.SetFloat(SPEED, 0);
         }
+    }
+
+    private void FixedUpdate()
+    {
+        //Store user input as a movement vector
+        Vector3 m_Input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+        //Apply the movement vector to the current position, which is
+        //multiplied by deltaTime and speed for a smooth MovePosition
+        m_Rigidbody.MovePosition(transform.position + m_Input * Time.deltaTime * 1);
     }
 
     public void LateUpdate()
