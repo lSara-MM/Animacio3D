@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] AudioSource die;
     [SerializeField] AudioSource win;
 
+    [SerializeField] GameObject music;
+
     bool dieAudio = false;
 
     #region AnimationParamNames
@@ -63,6 +65,9 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         cam = GameObject.Find("Main Camera").GetComponent<Camera>();
+
+        music = GameObject.Find("Music");
+
         _id = _playercount++;
     }
 
@@ -180,7 +185,6 @@ public class PlayerController : MonoBehaviour
                 hitBy.Win();
                 Instantiate(ImpactPrefab, hit.position, Quaternion.identity);
             }
-
         }
     }
 
@@ -212,6 +216,8 @@ public class PlayerController : MonoBehaviour
     {
         _animator.SetTrigger(WIN);
         _win = true;
+
+        music.SetActive(false);
 
         if (win != null && !dieAudio)
         {
