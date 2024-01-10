@@ -1,0 +1,33 @@
+Idle: 60 frames
+
+Walk: 39 frames
+
+Walk backwards: 60 frames
+
+Attack quick melee: 30 frames
+- Start Up 0 - 8 (8)
+- Active 8 - 9 / 12 - 13
+- Recovery 13 - 30 (17)
+
+Attack slow ranged: 50 frames
+- Start Up 0 - 15 (15)
+- Active 15 - 18 (3)
+- Recovery 18 - 50 (32)
+
+Attack quick low melee: 30 frames
+- Start Up 0 - 9 (9)
+- Active 9 - 12 (3)
+- Recovery 12 - 30 (18)
+
+Attack slow low ranged: 50 frames
+- Start Up 0 - 15 (15)
+- Active 15 - 18 (3)
+- Recovery 18 - 50 (32) 
+
+Dodge high atk: 30 frames
+
+Evade low atk: 30 frames
+
+Win: 42 frames
+
+Death: 71 frames
