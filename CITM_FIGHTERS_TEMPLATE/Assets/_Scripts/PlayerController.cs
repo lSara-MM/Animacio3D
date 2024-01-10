@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
 
     // Audios
     [SerializeField] AudioSource atk;
+    [SerializeField] AudioSource dodgeLow;
     [SerializeField] AudioSource dodge;
     [SerializeField] AudioSource die;
     [SerializeField] AudioSource win;
@@ -110,8 +111,6 @@ public class PlayerController : MonoBehaviour
     {
         _isBlocking = value;
         UpOrDown = upDown;
-
-        if (dodge != null) dodge.Play();
     }
 
     public void TryHighQuickAttack()
@@ -153,6 +152,8 @@ public class PlayerController : MonoBehaviour
         {
             _animator.SetTrigger(BLOCK_HIGH);
             SetBlocking(true, UpDown.Up);
+
+            if (dodge != null) dodge.Play();
         }
     }
 
@@ -162,6 +163,8 @@ public class PlayerController : MonoBehaviour
         {
             _animator.SetTrigger(BLOCK_LOW);
             SetBlocking(true, UpDown.Down);
+
+            if (dodgeLow != null) dodgeLow.Play();
         }
     }
 
