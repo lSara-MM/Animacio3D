@@ -1,3 +1,6 @@
+Deadpool Animations by Sara Qiao Martínez Mauri
+-----------------------------------------------
+
 Idle: 60 frames
 
 Walk: 39 frames

@@ -23,6 +23,13 @@ public class PlayerController : MonoBehaviour
     public Camera cam;
     [SerializeField] bool camAnim = false;
 
+    // Audios
+    [SerializeField] AudioSource atk;
+    [SerializeField] AudioSource dodge;
+    [SerializeField] AudioSource die;
+    [SerializeField] AudioSource win;
+
+    bool dieAudio = false;
 
     #region AnimationParamNames
     const string SPEED = "Speed";
@@ -92,6 +99,8 @@ public class PlayerController : MonoBehaviour
         _isAttacking = value;
         UpOrDown = upDown;
 
+        if (atk != null) atk.Play();
+
         Debug.Log(value);
     }
 
@@ -101,6 +110,8 @@ public class PlayerController : MonoBehaviour
     {
         _isBlocking = value;
         UpOrDown = upDown;
+
+        if (dodge != null) dodge.Play();
     }
 
     public void TryHighQuickAttack()
@@ -174,7 +185,12 @@ public class PlayerController : MonoBehaviour
     {
         _animator.SetTrigger(DIE);
 
-        //  GetComponent<AudioSource>().Play();
+        if (die != null && !dieAudio)
+        {
+            dieAudio = true;
+            die.Play();
+        }
+
         StartCoroutine(DieLater());
     }
 
@@ -193,6 +209,12 @@ public class PlayerController : MonoBehaviour
     {
         _animator.SetTrigger(WIN);
         _win = true;
+
+        if (win != null && !dieAudio)
+        {
+            dieAudio = true; 
+            win.Play();
+        }
     }
 }
 
