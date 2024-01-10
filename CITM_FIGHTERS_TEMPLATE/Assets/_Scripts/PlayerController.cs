@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (_win)
+        if (_win && camAnim)
         {
             Vector3 target = transform.position - new Vector3(0, -2, 3);
             cam.transform.position = Vector3.MoveTowards(cam.transform.position, target, 5f * Time.deltaTime);
