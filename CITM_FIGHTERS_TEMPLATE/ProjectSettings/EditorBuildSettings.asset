@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Jueguito.unity
+    guid: 89cb1ed3fd45d4a4cb815ce4b4385f77
   m_configObjects: {}

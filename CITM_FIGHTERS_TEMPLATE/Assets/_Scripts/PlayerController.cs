@@ -177,7 +177,7 @@ public class PlayerController : MonoBehaviour
     public void OnHit(Transform hit)
     {
         var hitBy = hit.root.GetComponent<PlayerController>();
-        if (hitBy.transform == _otherPlayer && hitBy._isAttacking)
+        if (hitBy.transform == _otherPlayer && hitBy._isAttacking && !hitBy.Dead && !_dead)
         {
             if (!_isBlocking || hitBy.UpOrDown != this.UpOrDown || hitBy.Dead)
             {
@@ -194,6 +194,7 @@ public class PlayerController : MonoBehaviour
 
         if (die != null && !dieAudio)
         {
+            _dead = true;
             dieAudio = true;
             die.Play();
         }

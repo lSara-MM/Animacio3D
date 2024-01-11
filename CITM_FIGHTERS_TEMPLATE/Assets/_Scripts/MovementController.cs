@@ -30,6 +30,8 @@ public class MovementController : MonoBehaviour
     public static int _playercount;
     int _id;
 
+    [SerializeField] float speedMult = 1;
+
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -51,7 +53,7 @@ public class MovementController : MonoBehaviour
 
             _animator.SetFloat(SPEED, speed > 0f ? 1 : -1);
 
-            float deltaSpeed = directionSpeed * Time.deltaTime;
+            float deltaSpeed = directionSpeed * speedMult * Time.deltaTime;
 
             Vector3 pos = transform.position;
             pos.x += deltaSpeed;
